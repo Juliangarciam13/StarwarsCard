@@ -13,7 +13,6 @@ export const datesStarwars = async () => {
                 'eye_color': result['eye_color'],
                 'hair_color': result['hair_color'],
                 'height': result.height,
-                'gender': result.gender,
                 'birth_year': result['birth_year'],
             }
         });

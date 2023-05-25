@@ -1,4 +1,4 @@
-import { datesStarwars } from "./Helpers/HelperStarwars";
+import { datesStarwars } from "../Helpers/HelperStarwars";
 import { useState } from "react";
 
 const StarwarsCards = () => {
@@ -32,11 +32,10 @@ const StarwarsCards = () => {
         <div>
             {randomCharacter && (
                 <div>
-                    <h1>{randomCharacter.name}</h1>
+                    <h1 style={{color: '#ABCD9C', fontSize: '50px'}}>{randomCharacter.name}</h1>
                     <p>Eye color: {randomCharacter.eye_color}</p>
                     <p>Hair color: {randomCharacter.hair_color}</p>
                     <p>Height: {randomCharacter.height}</p>
-                    <p>Gender: {randomCharacter.gender}</p>
                     <p>Birth year: {randomCharacter.birth_year}</p>
                 </div>
             )}
