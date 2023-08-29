@@ -13,11 +13,11 @@ This "StarwarsCard" project allows you to explore and get to know Star Wars char
 ## Technologies Used
 This project was developed using the following technologies:
 
--HTML: For structuring the web page.
--CSS: For styling character cards and improving the overall appearance.
--JavaScript: For fetching random character data and displaying it on the card.
--Yarn: As a package manager for installing and managing dependencies.
+- HTML: For structuring the web page.
+- CSS: For styling character cards and improving the overall appearance.
+- JavaScript: For fetching random character data and displaying it on the card.
+- Yarn: As a package manager for installing and managing dependencies.
 
 ## Author
--Julian A. Garcia M.
--GitHub: https://github.com/Juliangarciam13?
+- Julian A. Garcia M.
+- GitHub: https://github.com/Juliangarciam13?
