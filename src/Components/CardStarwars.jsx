@@ -20,7 +20,6 @@ const CardStarwars = () => {
                         <StarwarsCards />
                     </div>
                     <div className="buttons" style={{ display: 'flex', flexDirection: 'row' }}>
-
                         <div className="buttonContainer">
                             <button onClick={handleReload}>
                                 <img src={buttonImage} alt='button' style={{ width: '100%', height: '100%' }} />
