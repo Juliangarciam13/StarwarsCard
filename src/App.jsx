@@ -1,4 +1,3 @@
-import './Styles/App.css'
 import './Styles/Card.css'
 import CardStarwars from './Components/CardStarwars';
 

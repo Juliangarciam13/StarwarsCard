@@ -1,29 +1,26 @@
 .container {
     background-image: url('../Media/BackgroundCard.png');
     background-size: cover;
-    width: 140vh;
-    height: 80vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 10%;
-    left: 15%;
-    right: 20%;
-    border-radius: 2%;
 }
 
 .containerCard {
     background-color: white;
     width: 60%;
-    height: 60%;
+    height: 65%;
     border-radius: 2%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
 }
 
 .imageCharacters {
-    top: 1px;
-    bottom: 25px;
+    top: 1vh;
+    bottom: 8vh;
     margin-left: 350px;
     display: flex;
     align-items: center;
@@ -31,17 +28,15 @@
 }
 
 .imageCharacters img {
-
-    width: 500px;
+    width: 50vw;
     height: auto;
     max-width: 1000px;
-    max-height: 1000px; 
+    max-height: 1000px;
     object-fit: cover;
 }
 
 .buttonContainer {
-    width: 60px;
-    height: 60px;
+    width: 6vw;
     border-radius: 50%;
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
     background-color: white;
@@ -73,12 +68,42 @@ button {
 }
 
 .icons img {
-    width: 20px;
-    height: 20px;
+    width: 2vw;
 }
 
 .icons {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .imageCharacters {
+        top: 21vh;
+        bottom: 7vh;
+        margin-left: 150px;
+    }
+
+    .imageCharacters img {
+
+        width: 80vw;
+        height: auto;
+    }
+
+    .containerCard {
+        font-size: x-large;
+        width: 80vw;
+    }
+
+    .buttons {
+        margin-top: 10vh;
+    }
+
+    .buttonContainer {
+        width: 12vw;
+    }
+
+    .icons img {
+        width: 4vw;
+    }
 }
